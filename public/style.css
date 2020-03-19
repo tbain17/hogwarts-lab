@@ -1,0 +1,22 @@
+body{
+  background-color: Black;
+}
+
+h1 {
+  color: Yellow;
+  font-family: century;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: yellow;
+}
+
+label {
+  display: inline-block;
+}

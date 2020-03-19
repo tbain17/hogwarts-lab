@@ -33,6 +33,7 @@ end
 
 #CRUD - UPDATE / edit / GET
 get '/students/:id/edit' do
+  @houses = House.all()
   @student = Student.find(params[:id].to_i())
   erb(:edit)
 end
